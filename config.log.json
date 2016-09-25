@@ -1,0 +1,8 @@
+{
+    "logFolder": "./logs/",
+    "logPrefix": "venus-msite-",
+    "logRecordName": "venus-msite",
+    "logSrc": true,
+    "enableSaveInterval": false,
+    "logSaveInterval": 5e3
+}

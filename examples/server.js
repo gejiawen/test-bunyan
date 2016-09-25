@@ -8,7 +8,12 @@ var log = bunyan.createLogger({
     serializers: {
         req: bunyan.stdSerializers.req,
         res: bunyan.stdSerializers.res
-    }
+    },
+    streams: [
+        {
+            path: '../test.log'
+        }
+    ]
 });
 
 var server = http.createServer(function (req, res) {
