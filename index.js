@@ -46,7 +46,7 @@ http.createServer((req, res) => {
 
     req.on('response', function (res) {
         res.on('end', function () {
-            process.exit();
+            process.exit()
         })
     })
 
